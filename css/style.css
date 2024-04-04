@@ -39,6 +39,10 @@ main {
     padding-top: 3rem;
 }
 
+li span {
+    display: inline-block;
+}
+
 div.container {
     max-width: 80%;
     margin: 0 auto;
@@ -47,6 +51,42 @@ div.container {
 div.btn-bar {
     padding: 1.5rem 3rem 0.8rem;
     border-radius: 8px 8px 4px 4px;
+    margin-bottom: 0.2rem;
+}
+
+div.todo-list {
+    padding: 1rem 5rem;
+    border-radius: 4px 4px 8px 8px;
+}
+
+li.li-title {
+    list-style-type: disclosure-open;
+    margin-top: 1.5rem;
+}
+
+li.task {
+    list-style-type: none;
+    margin-top: .7rem;
+}
+
+span.mark {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 900;
+    padding: 0.1rem;
+}
+
+span.tag {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+    padding: .3rem .6rem;
+    border-radius: 20px;
+    text-align: center;
 }
 
 #add-section {
@@ -69,6 +109,14 @@ div.btn-bar {
 
 .bg-blue {
     background-color: #47adf1;
+}
+
+span.check {
+    color: #7ac9b5;
+}
+
+span.cross {
+    color: red;
 }
 
 /*  Tag  */
