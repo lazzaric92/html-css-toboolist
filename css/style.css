@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+/*  GENERAL  */
 body {
     max-width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    padding: .5rem .8rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* --------------- */
 header {
     padding: 1rem;
 }
@@ -22,4 +31,67 @@ header h1 {
     font-size: 2.5rem;
     margin-left: .2rem;
     line-height: 3.5rem;
+}
+
+main {
+    width: 100%;
+    background-color: #f6f8f9;
+    padding-top: 3rem;
+}
+
+div.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+div.btn-bar {
+    padding: 1.5rem 3rem 0.8rem;
+    border-radius: 8px 8px 4px 4px;
+}
+
+#add-section {
+    border: 1px solid lightgrey
+}
+
+/* --------------- 
+   COLOR STYLE   */
+.font-white {
+    color: white;
+}
+
+.font-lightgrey {
+    color: lightgrey
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: #47adf1;
+}
+
+/*  Tag  */
+.tag-blue {
+    background-color: #45abea;
+}
+
+.tag-violet {
+    background-color: #9c72e4;
+}
+
+.tag-green {
+    background-color: #64c0a9;
+}
+
+.tag-orange {
+    background-color: #f29e33;
+}
+
+.tag-magenta {
+    background-color: #d863a1;
+}
+
+.tag-limon {
+    background-color: #b0c926;
 }
