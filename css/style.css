@@ -19,7 +19,7 @@ button {
 
 /* --------------- */
 header {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 header img {
@@ -37,6 +37,7 @@ main {
     width: 100%;
     background-color: #f6f8f9;
     padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 li span {
@@ -55,7 +56,7 @@ div.btn-bar {
 }
 
 div.todo-list {
-    padding: 1rem 5rem;
+    padding: 1rem 4.5rem 2.5rem;
     border-radius: 4px 4px 8px 8px;
 }
 
@@ -79,22 +80,26 @@ span.mark {
     font-size: 0.7rem;
     font-weight: 900;
     padding: 0.1rem;
+    margin-right: .4rem;
+    vertical-align: bottom;
 }
 
 span.tag {
-    margin-left: 1rem;
+    margin-left: .1rem;
     font-size: 0.6rem;
     padding: .3rem .6rem;
     border-radius: 20px;
     text-align: center;
+    vertical-align: bottom;
 }
 
 #add-section {
     border: 1px solid lightgrey
 }
 
-/* --------------- 
-   COLOR STYLE   */
+/* ------------- 
+    COLOR STYLE   
+   ------------- */
 .font-white {
     color: white;
 }
