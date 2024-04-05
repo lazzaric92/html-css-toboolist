@@ -12,13 +12,15 @@ body {
 button {
     padding: .5rem .8rem;
     border-radius: 8px;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
 }
 
 /* --------------- */
 header {
     padding: 1rem 1.5rem;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 header img {
@@ -39,12 +41,16 @@ main {
     padding-bottom: 1rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 li span {
     display: inline-block;
 }
 
 div.container {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -60,13 +66,11 @@ div.todo-list {
 }
 
 li.li-title {
-    list-style-type: disclosure-open;
     margin-top: 1.5rem;
 }
 
 li.task {
-    list-style-type: none;
-    margin-top: .7rem;
+    margin: 1.2rem 0 .7rem;
 }
 
 span.mark {
@@ -87,13 +91,13 @@ span.tag {
     margin-left: .1rem;
     font-size: 0.6rem;
     padding: .3rem .6rem;
-    border-radius: 20px;
+    border-radius: .6rem;
     text-align: center;
     vertical-align: bottom;
 }
 
 #add-section {
-    border: 1px solid lightgrey
+    border-color: lightgrey;
 }
 
 /* ------------- 
